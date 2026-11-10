@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "autorynek",
+  "version": "${version}",
+  "name": "AutoRynek",
+  "description": "Auto-skupowanie ofert z rynku (/ah) na Anarchia.gg",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.autorynek.AutoRynekMod"] },
+  "mixins": ["autorynek.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

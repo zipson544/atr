@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "pl.autorynek.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["HandledScreenAccessor"],
+  "injectors": { "defaultRequire": 1 }
+}
